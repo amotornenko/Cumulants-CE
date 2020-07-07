@@ -43,7 +43,7 @@ The second option is to implement the provided package directly in your own code
 The example is provided in the **example.py** file and furhter documentation therein. This example code can be run as:
 
 ### python example.py
-
+Please note that python version should be >= 3.6
 ## Python modules/libraries/bindings needed 
 
 - sympy

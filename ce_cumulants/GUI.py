@@ -14,7 +14,6 @@ If you use the code to produce results for a publication, we ask you to be fair 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from ce_cumulants.cumulans import Cumulants
 
-
 class CeGUI(object):
     def setup_ui(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -142,7 +141,7 @@ class CeGUI(object):
             outF = open("ce_cumulants.cc", "w")
         for i in range(0, nc):
             outstring.extend(['{:.6}'.format(float(kappax_num[i]))])
-        zr0 = '{:.10}'.format(float(zr[0]))
+        zr0 = '{:.10}'.format(float(zr))
         self.textBrowser_4.append("z = " + str(zr0))
         #self.textBrowser_4.setStyleSheet("background-color: green;")
         self.textBrowser_4.repaint()
